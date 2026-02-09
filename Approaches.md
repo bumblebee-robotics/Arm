@@ -1,0 +1,5 @@
+- Open source
+- Mobile robot manipulators
+- Omni-wheel platform
+- Robotic arm
+- Create performance index out of design requirements to compare between different solutions
