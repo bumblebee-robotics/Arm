@@ -25,7 +25,7 @@
 	- [[Autonomous block diagram]]
 	- [[Control Block diagram]]
 	- [[Mechanical Block Diagram]]
-	- 
+
 - Mobile Robot
 	- [[Mobile Robot FBD.pdf]]
 	- [[Mobile Robot Electrical & Electronics Subsystem Architecture.pdf]]
