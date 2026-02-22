@@ -21,7 +21,7 @@
 		- [[Arm v2]]
 	- [[Arm Power System Architecture.pdf|Arm Electrical and Electronics Architecture]]
 	- [[Power Block Diagram]]
-	- [[Embedded block diagram]]
+	- [[Signal block diagram]]
 	- [[Autonomous block diagram]]
 	- [[Control Block diagram]]
 	- [[Mechanical Block Diagram]]
