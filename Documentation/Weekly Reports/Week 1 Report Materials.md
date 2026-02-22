@@ -9,7 +9,7 @@
 	- [[Concept Sketching]]
 	- [[Basic Concept of Mobile Robot]]
 - Arm
-	- [ ] Concept Sketching
+	- [[Arm concept selection.pdf|Concept Sketching]]
 	- [[basic_concept_of_manipulator.pdf|Basic Concept of Arm]]
 ### Functional Block Diagrams
 - System
