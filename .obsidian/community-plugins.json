@@ -5,5 +5,7 @@
   "open-gate",
   "obsidian-diagrams-net",
   "cmdr",
-  "latex-exporter"
+  "latex-exporter",
+  "obsidian-latex-suite",
+  "calctex"
 ]
