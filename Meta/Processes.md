@@ -1,5 +1,0 @@
-- Scientific Method
-- Engineering Design Process
-- Mechatronic Systems Design Process
-- Community Initiatives Process
-- Project Management -> Design -> Implementation

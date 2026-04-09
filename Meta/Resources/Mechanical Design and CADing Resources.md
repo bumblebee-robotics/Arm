@@ -1,4 +1,0 @@
-- [[Pascal course]]
-- [[SMath Studio]]
-- [Aryan](https://youtube.com/@with-aryan?si=wzy7sHZVZuN3vfsf)
-- [[Mechanical Design]]

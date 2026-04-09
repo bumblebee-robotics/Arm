@@ -1,2 +1,0 @@
-- **Sprint Planning**: Sundays
-- **Deliverables Review**: Friday

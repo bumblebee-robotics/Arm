@@ -1,0 +1,65 @@
+## Trying to work with old libraries
+- `CAN.h`
+	- [How to Build a CAN Bus With ESP32](https://lastminuteengineers.com/esp32-can-bus-tutorial/#esp32-can-controller-aka-twai-controller)
+		- [ESP32 Technical Reference Manual](https://documentation.espressif.com/esp32_technical_reference_manual_en.pdf)
+		- [TJA1050 High speed CAN transceiver](https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf)
+		- [SN65HVD230 3.3V CAN BUS Transceiver Communication Module – UGE Electronics Egypt](https://uge-one.com/product/sn65hvd230-3-3v-can-bus-transceiver-communication-module/)
+		- [SIT65HVD230-datasheet(V1.9)-en.pdf](https://ultran.ru/upload/iblock/66a/SIT65HVD230-datasheet\(V1.9\)-en.pdf)
+	- [What is CAN Bus & How to use CAN Interface with ESP32 and Arduino - CIRCUITSTATE Electronics](https://www.circuitstate.com/tutorials/what-is-can-bus-how-to-use-can-interface-with-esp32-and-arduino/#ESP_CAN_Controller)
+	- [ESP32 for CAN bus communication in a car ? : r/esp32](https://www.reddit.com/r/esp32/comments/1e3v6nb/esp32_for_can_bus_communication_in_a_car/)
+	- [sandeepmistry/arduino-CAN: An Arduino library for sending and receiving data using CAN bus.](https://github.com/sandeepmistry/arduino-CAN)
+	- Issues
+		- [Compatibility with Arduino 3.1.0 - change of internal GPIO api. · Issue #154 · sandeepmistry/arduino-CAN](https://github.com/sandeepmistry/arduino-CAN/issues/154)
+		- [Solved: Fatal Error: esp_intr.h: No such file or directory · Issue #146 · sandeepmistry/arduino-CAN](https://github.com/sandeepmistry/arduino-CAN/issues/146)
+		- [Issues · sandeepmistry/arduino-CAN](https://github.com/sandeepmistry/arduino-CAN/issues)
+		- [#warning esp_intr.h is deprecated · Issue #138 · sandeepmistry/arduino-CAN](https://github.com/sandeepmistry/arduino-CAN/issues/138)
+		- [Not working with Espressif 3.0 · Issue #125 · sandeepmistry/arduino-CAN](https://github.com/sandeepmistry/arduino-CAN/issues/125)
+		- [ESP32 CAN bus fatal error ".h" - Projects / Programming - Arduino Forum](https://forum.arduino.cc/t/esp32-can-bus-fatal-error-h/1282874)
+- `CAN.h` fork
+	- All: [Forks · sandeepmistry/arduino-CAN](https://github.com/sandeepmistry/arduino-CAN/forks?include=active&page=1&period=&sort_by=stargazer_counts)
+	- [timurrrr/arduino-CAN: An Arduino library for sending and receiving data using CAN bus.](https://github.com/timurrrr/arduino-CAN)
+	- [SuGlider/ESP32-TWAI-arduino-CAN: An Arduino library for sending and receiving data using CAN bus.](https://github.com/SuGlider/ESP32-TWAI-arduino-CAN)
+- `mcp_can.h`
+	- [Seeed-Studio/Seeed_Arduino_CAN: Seeed Arduino CAN-BUS library - MCP2518FD&MCP2515&MCP2551](https://github.com/Seeed-Studio/Seeed_Arduino_CAN/tree/master)
+- `mcp215.h`
+	- [dedalqq/esp32-mcp2515: MCP2515 CAN interface library for using on esp32/esp8266](https://github.com/dedalqq/esp32-mcp2515)
+- `esp32_can.h`
+	- [collin80/esp32_can: Arduino ESP32 library supporting the on-chip CAN module](https://github.com/collin80/esp32_can)
+- `Adafruit_CAN.h`
+	- [CircuitPython | Adafruit CAN Pal | Adafruit Learning System](https://learn.adafruit.com/adafruit-can-pal/circuitpython)
+	- [adafruit/Adafruit_CAN: Adafruit Arduino library for CAN bus.](https://github.com/adafruit/Adafruit_CAN)
+	- [ESP32 CAN-BUS Demo-Code for Adafruit Adafruit CAN Pal - CAN Bus Transceiver - Projects / Networking, Protocols, and Devices - Arduino Forum](https://forum.arduino.cc/t/esp32-can-bus-demo-code-for-adafruit-adafruit-can-pal-can-bus-transceiver/1222718)
+	- [ESP32 for CAN bus communication in a car ? : r/esp32](https://www.reddit.com/r/esp32/comments/1e3v6nb/esp32_for_can_bus_communication_in_a_car/)
+## Trying to use TWAI
+- Documentation
+	- [Two-Wire Automotive Interface (TWAI) - ESP32 - — ESP-IDF Programming Guide v5.5.3 documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/twai.html#getting-started)
+	- [ESP32-TWAI-CAN | Arduino Documentation](https://docs.arduino.cc/libraries/esp32-twai-can/)
+	- [TWAI - ESP32 - — ESP-IDF Programming Guide v4.2 documentation](https://docs.espressif.com/projects/esp-idf/en/v4.2/esp32/api-reference/peripherals/twai.html)
+- GitHub Repos
+	- [arduino-esp32/libraries/ESP32/examples/TWAI at master · espressif/arduino-esp32](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/TWAI)
+	- [EastMakes/CAN_Breadboard](https://github.com/EastMakes/CAN_Breadboard/tree/main) ([ESP32 CAN Bus Project- Breadboarding](https://www.youtube.com/watch?v=tnAgWmH2XvQ))
+- Libraries
+	- [pierremolinaro/acan-esp32: An ESP32 CAN 2.0B library](https://github.com/pierremolinaro/acan-esp32/tree/main)
+	- [shining-man/ESP32-TWAI: ESP32 TWAI (CAN) library](https://github.com/shining-man/ESP32-TWAI)
+	- [handmade0octopus/ESP32-TWAI-CAN: ESP32 driver for TWAI / CAN for adruino](https://github.com/handmade0octopus/ESP32-TWAI-CAN)
+	- [eyr1n/ESP32_TWAI](https://github.com/eyr1n/ESP32_TWAI)
+- Articles
+	- [Mastering ESP32 CAN Bus | Complete Guide for Sending and Receiving Data | SaludPCB](https://saludpcb.com/esp32-can-bus-complete-guide-sending-receiving/)
+	- [ESP32-CAN-X2 - Autosport Labs](https://wiki.autosportlabs.com/ESP32-CAN-X2)
+	- [CAN Bus Development with ESP32.pdf](https://copperhilltech.com/content/CAN%20Bus%20Development%20with%20ESP32.pdf)
+- [[CAN Videos]]
+- Discussions
+	- [CANbus, TWAI using ESP32 Nano and TJA1051 - Nano Family / Nano ESP32 - Arduino Forum](https://forum.arduino.cc/t/canbus-twai-using-esp32-nano-and-tja1051/1313615)
+	- [ESP32 CAN (TWAI) Beginner Help : r/esp32](https://www.reddit.com/r/esp32/comments/1oxdim7/esp32_can_twai_beginner_help/)
+	- [[Arduino] Can you have software interruptions when CAN messages are received using the TWAI driver? : r/esp32](https://www.reddit.com/r/esp32/comments/18j9add/arduino_can_you_have_software_interruptions_when/)
+## Extra
+- [ESPHome - Smart Home Made Simple](https://esphome.io/)
+- [espressif/arduino-esp32: Arduino core for the ESP32](https://github.com/espressif/arduino-esp32)
+- [DanielKalicki/Xiaomi_CyberGear_Arduino: Arduino TWAI library for Xiaomi CyberGear](https://github.com/DanielKalicki/Xiaomi_CyberGear_Arduino)
+- [adamtheone/canDrive: Tools for hacking your car](https://github.com/adamtheone/canDrive)
+## Attempts
+- [[TWAI - built-in driver]]
+- [[TWAI - built in driver part 2]]
+- [[TWAI 3 - ACAN ESP32]]
+- [[CAN.h]]
+- [[ESP32-TWAI-CAN]]
